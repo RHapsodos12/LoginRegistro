@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity implements Response.Listener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mBtnRegistrar =  findViewById(R.id.btnRegistrar);
-        mTxtUser = findViewById(R.id.txtUser);
-        mTxtPwd = findViewById(R.id.txtPwd);
-        mTxtNames = findViewById(R.id.txtNames);
+        mBtnRegistrar =  findViewById(R.id.btnRegistrarReg);
+        mTxtUser = findViewById(R.id.txtUserReg);
+        mTxtPwd = findViewById(R.id.txtPwdReg);
+        mTxtNames = findViewById(R.id.txtNamesReg);
 
         rq = Volley.newRequestQueue(getApplicationContext());
 
